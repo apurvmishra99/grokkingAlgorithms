@@ -15,6 +15,7 @@ def binary_search(arr, key):
 if __name__ == "__main__":
     arr = sorted(list(input("Enter the sorted list: ").split(" ")))
     key = input("The key to find is: ")
+    print(arr)
     if binary_search(arr, key) is not None:
         print(f"The key was found at the index: {binary_search(arr, key)}.")
     else:
